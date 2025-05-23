@@ -1,0 +1,76 @@
+.projects-page {
+  padding: 2rem;
+  background: #f5f7fa;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.projects-title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #003366;
+  margin-bottom: 2rem;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: #00509e;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #444;
+}
+
+.tech-list {
+  margin: 1rem 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.tech-list li {
+  background-color: #e0e0e0;
+  padding: 0.4rem 0.7rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.repo-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #0077cc;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid #0077cc;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  transition: background 0.2s;
+}
+
+.repo-link:hover {
+  background-color: #0077cc;
+  color: white;
+}

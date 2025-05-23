@@ -1,0 +1,68 @@
+/* Contact.css */
+.contact-page {
+  padding: 3rem;
+  background: #fdfefe;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-page h2 {
+  font-size: 2.2rem;
+  color: #003366;
+  margin-bottom: 1.5rem;
+}
+
+.contact-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #0077cc;
+}
+
+.contact-form button {
+  background-color: #0077cc;
+  color: white;
+  font-weight: bold;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #005fa3;
+}
+
+.contact-page a {
+  color: #0077cc;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+.contact-page a:hover {
+  text-decoration: underline;
+}

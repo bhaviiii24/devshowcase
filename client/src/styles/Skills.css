@@ -1,0 +1,21 @@
+.skills {
+  padding: 2rem;
+  background: #ecf0f1;
+  text-align: center;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.skill-item {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}

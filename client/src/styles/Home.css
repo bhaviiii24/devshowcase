@@ -1,0 +1,86 @@
+/* Home.css */
+.home {
+  max-width: 960px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #f4f4f4;
+  font-family: 'Poppins', sans-serif;
+  color: #1f1f1f;
+  text-align: center;
+}
+
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1f1f1f;
+  text-align: left;
+}
+
+.hero-text h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+  color: #333;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.projects-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  color: #1f1f1f;
+  position: relative;
+}
+
+.projects-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #1f1f1f;
+  margin: 0.6rem auto 0;
+  border-radius: 1px;
+}
+
+.featured-projects-preview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.preview-card {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.preview-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.preview-card h3 {
+  color: #222;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.preview-card p {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
